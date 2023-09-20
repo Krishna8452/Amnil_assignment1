@@ -16,21 +16,21 @@ import axios from "axios"
 import CancelIcon from "@mui/icons-material/Cancel";
 
 const validationSchema = Yup.object().shape({
-  user: Yup.string().required("Full Name is required")
-
+  username: Yup.string().required("username is required"),
+  password: Yup.password
 });
 
 export default function PositionFormComponent({ }) {
     const navigate= useNavigate()
     const [open, setOpen] = useState(true)
     const initialValues ={
-        user:'',
+        username:'',
         password:''
       };
   const handleSubmit = (values, { setSubmitting }) => {
-    axios.post('http://localhost:3031/positions',values)
+    axios.post('http://localhost:3000/users',values)
     navigate('/')
-     
+  
   };
 
 
@@ -74,7 +74,7 @@ export default function PositionFormComponent({ }) {
                   <Field
                     as={TextField}
                     width={"5rem"}
-                    name="user"
+                    name="username"
                     label="user"
                     variant="outlined"
                     sx={{marginBottom:'1rem'}}

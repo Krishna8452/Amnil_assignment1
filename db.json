@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Krishna Chauadhary",
+      "password": ""
+    },
+    {
+      "id": 2,
+      "username": "Bijay Kandel",
+      "password": "pe0bgk"
+    },
+    {
+      "id": 3,
+      "username": "Vim prasad Lamichhane",
+      "password": "wgm8yr"
+    },
+    {
+      "username": "dfddfd",
+      "password": "",
+      "id": 4
+    },
+    {
+      "username": "asasas",
+      "password": "",
+      "id": 5
+    },
+    {
+      "username": "dinesh",
+      "password": "vxfra9",
+      "id": 6
+    }
+  ]
+}
