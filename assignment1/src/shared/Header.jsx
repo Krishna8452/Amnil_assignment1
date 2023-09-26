@@ -8,7 +8,7 @@ import IconButton from '@mui/material/IconButton';
 export default function ButtonAppBar() {
   return (
     <Box>
-      <AppBar position="static" style={{width:'100%'}}>
+      <AppBar position="static" style={{width:'100%', position:'fixed', height:'4rem'}}>
         <Toolbar>
           <IconButton
             size="large"

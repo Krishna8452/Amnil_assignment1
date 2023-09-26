@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Krishna Chauadhary",
+      "password": "rt9tvu"
+    },
+    {
+      "id": 2,
+      "username": "Bijay Kandel",
+      "password": "rl700m"
+    },
+    {
+      "id": 3,
+      "username": "Vim prasad Lamichhane",
+      "password": "rr54c"
+    },
+    {
+      "username": "dfddfd",
+      "password": "gqbiw",
+      "id": 4
+    },
+    {
+      "username": "asasas",
+      "password": "4192hp",
+      "id": 5
+    },
+    {
+      "username": "dinesh",
+      "password": "vxfra9",
+      "id": 6
+    },
+    {
+      "username": "sdsdsd",
+      "password": "wueyba",
+      "id": 7
+    },
+    {
+      "username": "umesh chaudhary",
+      "password": "1jd0ek",
+      "id": 8
+    },
+    {
+      "username": "dinesh",
+      "password": "ldi6el",
+      "id": 9
+    }
+  ]
+}
